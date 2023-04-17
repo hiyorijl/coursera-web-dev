@@ -41,21 +41,26 @@ body{
   
 .item_title{
     position: absolute;
-    top:0
+    top: 0px;
+    right:0px;
     border: 1px solid black;
     font: 18px;
     text-align: center;
-    padding: 8px 90px;
+    padding: 2px 90px;
 }
 #title_1{
     color: #45c2ec;
+    background: #102ffb;
+
 }
 #title_2{
     color: #fae1d6;
+    background: #0c3420;
+
 }
 #title_3{
-    color: #dd6eea;
-    background: #102ffb;
+    color: #8f159d;
+    background: #c9cdf6;
 }
 
 /* Simple Responsive Framework. */
