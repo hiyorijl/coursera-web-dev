@@ -13,23 +13,28 @@ h1{
     font: 23px;
     text-transform: uppercase;
 }
-div p{
-    border: 1px solid black;
 
-}
 .row{
     width: 100%;
 }
   
 body{
     background: #f4f3f6;
+    font: Georgia, serif, 19px;
 }
 .container{
     position: relative;
     top:10px;
     margin: 15px; 
 }
-
+div .item_title {
+    position: relative;
+    top: -25px;
+    right: -25px;
+    float: right;
+    display: flex;
+    max-width: 200px;
+}
 .item{
     position: relative;
     top: 0;
@@ -46,23 +51,27 @@ body{
     border: 1px solid black;
     font: 18px;
     text-align: center;
-    padding: 2px 90px;
-}
+    box-sizing: border-box;
+    padding: 10px;
+
+  }
 #title_1{
     color: #45c2ec;
     background: #102ffb;
+    flex: 1;
 
 }
 #title_2{
     color: #fae1d6;
     background: #0c3420;
+    flex: 1;
 
 }
 #title_3{
     color: #8f159d;
     background: #c9cdf6;
+    flex: 1;
 }
-
 /* Simple Responsive Framework. */
 /*------ Desktop ------*/
 @media (min-width: 992px){
@@ -129,3 +138,4 @@ body{
       float: left;
     }
   }
+
