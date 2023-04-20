@@ -1,5 +1,5 @@
 # coursera-web-dev
-english / spanish README.md
+english / español README.md
 
 ## What's this? | 
 Repositorio de los solucionarios y desarrollo del curso para 'HTML, CSS, and Javascript for Web Developers' de la Universidad Johns Hopkins en Coursera.
