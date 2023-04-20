@@ -1,10 +1,10 @@
 # coursera-web-dev
 english / español README.md
 
-## What's this? | 
-Repositorio de los solucionarios y desarrollo del curso para 'HTML, CSS, and Javascript for Web Developers' de la Universidad Johns Hopkins en Coursera.
+## What's this? | Introducción del repositorio
 
 Repository for the solutions and assignments on the course 'HTML, CSS, and Javascript for Web Developers' by Johns Hopkins University in Coursera.
+Repositorio de los solucionarios y desarrollo del curso para 'HTML, CSS, and Javascript for Web Developers' de la Universidad Johns Hopkins en Coursera.
 
 ## Module 2 Coding Assignment | Asignación del trabajo del módulo 2
 
