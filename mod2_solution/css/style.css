@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
 }
+
 h1{
     background: -webkit-radial-gradient(#102ffb,#e3daf0, #eec9f2);
     text-align: center;
@@ -22,11 +23,14 @@ body{
     background: #f4f3f6;
     font: Georgia, serif, 19px;
 }
+
 .container{
     position: relative;
     top:10px;
     margin: 15px; 
+    flex-wrap: wrap;
 }
+
 div .item_title {
     position: relative;
     top: -25px;
@@ -35,6 +39,7 @@ div .item_title {
     display: flex;
     max-width: 200px;
 }
+
 .item{
     position: relative;
     top: 0;
@@ -42,6 +47,7 @@ div .item_title {
     margin: 15px;
     padding: 25px;
     border: 3px solid #e18787;
+    flex: 1 0 33.33%;
 }
   
 .item_title{
@@ -53,89 +59,40 @@ div .item_title {
     text-align: center;
     box-sizing: border-box;
     padding: 10px;
+}
 
-  }
 #title_1{
     color: #45c2ec;
     background: #102ffb;
     flex: 1;
-
 }
+
 #title_2{
     color: #fae1d6;
     background: #0c3420;
     flex: 1;
-
 }
+
 #title_3{
     color: #8f159d;
     background: #c9cdf6;
     flex: 1;
 }
-/* Simple Responsive Framework. */
-/*------ Desktop ------*/
-@media (min-width: 992px){
-    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-      float: left;  
-    }
-    .col-lg-1 {
-      width: 8.33%;
-    }
-    .col-lg-2 {
-      width: 16.66%;
-    }
-    .col-lg-3 {
-      width: 25%;
-    }
-    .col_lg_4 {
-      width: 33.33%;
-    }
-    .col-lg-5 {
-      width: 41.66%;
-    }
-    .col-lg-6 {
-      width: 50%;
-    }
-    .col-lg-7 {
-      width: 58.33%;
-    }
-    .col-lg-8 {
-      width: 66.66%;
-    }
-    .col-lg-9 {
-      width: 74.99%;
-    }
-    .col-lg-10 {
-      width: 83.33%;
-    }
-    .col_lg_11 {
-      width: 91.66%;
-    }
-    .col_lg_12 {
-      width: 100%;
-    }
-  
-  }
-  
-  
-  /*------ Tablet ------*/
-  @media (min-width: 768px) and (max-width: 991px){
-    .col-lg-4 {
-      width: 50%;
-      float: left;
-    }
-    .col_lg_tablet{
-     width: 100%;
-     float: left;
-   }
-  }
-  
-  
-  /*------ Mobile ------*/
-  @media (max-width: 767px){
-    .col-lg-4{
-      width: 100%;
-      float: left;
-    }
-  }
 
+/*MEDIA QUERIES FOR DESKTOP, TABLET AND MOBILE VIEW*/
+@media (max-width: 768px) {
+    .box {
+      flex-basis: 100%;
+    }
+    .row{
+        width:33%;
+    }
+  }
+  
+@media (max-width: 480px) {
+    .box {
+      flex-basis: 100%;
+    }
+  }
+  
+  
