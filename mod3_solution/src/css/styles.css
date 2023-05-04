@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+h1{
+    position: relative;
+    background: -webkit-radial-gradient(#102ffb,#e3daf0, #eec9f2);
+    text-align: center;
+    background-clip: padding-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+    font-size: 175%;
+}
