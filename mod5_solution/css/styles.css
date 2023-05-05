@@ -7,7 +7,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #e9c268;
   border-radius: 0;
   border: 0;
 }
@@ -54,7 +54,7 @@ body {
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #cfdac3;
 }
 #nav-list a span {
   font-size: 1.8em;
